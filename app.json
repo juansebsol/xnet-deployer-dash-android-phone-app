@@ -15,7 +15,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "statusBar": {
+        "hidden": true, 
+        "translucent": true
+      },
+      "permissions": ["INTERNET"]
     },
     "web": {
       "bundler": "metro",
